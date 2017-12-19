@@ -1,0 +1,25 @@
+# airplane
+#控制飞机飞行
+using UnityEngine;
+using System.collections;
+
+public class Aircontrol : Monobehaviour
+{
+    private Transform m_transform;//声明了一个Transform实例，用于后面存放transform组件的调用
+    public float speed = 600f; //飞机的飞行速度，设置成共用变量，能直接在untiy中修改
+    private float rotationz = 0.0f; //飞机绕z轴的旋转量
+    public float rotatespeed_AxisZ = 45f;//绕z轴的旋转速度
+    public float rotatespeed_AxisY = 25f;//绕y轴的旋转速度
+    private Vector2 touchPosition;//触摸点坐标
+    private float screenWeight;//屏幕宽度
+    void Start()
+    {
+        m_transform = this.transform;
+    }
+
+}
+{
+	public Class1()
+	{
+	}
+}
